@@ -10,7 +10,7 @@
         Dim sex1 = "Hombre"
         Dim edad1 = 47
         Dim depto1 = "San Salvador"
-
+        depto1 = depto1.Replace("San Salvador", "Tonacatepeque")
         Dim carre1 = "Licenciatura en computacion"
 
 
@@ -27,6 +27,7 @@
         Dim sex2 = "Hombre"
         Dim edad2 = 22
         Dim depto2 = "Sonsonate"
+
         Dim carre2 = "Licenciatura en Computacion"
 
         Console.WriteLine("NOMBRE :" & nom2 + ape2)
@@ -69,6 +70,11 @@
 
         Dim promedioEdad = (edad1 + edad2 + edad3 + edad4) / 4
         Console.WriteLine("promedio de edades es:" & promedioEdad)
+
+        Console.WriteLine(nom1 & " terminara su carrera de " & edad1 + 2)
+        Console.WriteLine(nom2 & " terminara su carrera de " & edad2 + 3)
+        Console.WriteLine(nom3 & " terminara su carrera de " & edad3 + 3)
+        Console.WriteLine(nom4 & " terminara su carrera de " & edad4 + 3)
 
 
 
